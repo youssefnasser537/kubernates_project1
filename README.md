@@ -1,9 +1,10 @@
 # 🚀 Deploying WordPress & MySQL on Kubernetes with Persistent Volumes
 
-هذا المشروع يوضح كيفية نشر موقع WordPress متصل بقاعدة بيانات MySQL على Kubernetes باستخدام:
-- **Volumes دائمة (PVs + PVCs)**
-- **Secrets لحماية البيانات الحساسة**
-- **Services و NodePort للوصول الخارجي**
+This project demonstrates how to deploy a WordPress website connected to a MySQL database on Kubernetes using:
+
+- **Persistent Volumes (PVs & PVCs)**
+- **Secrets for protecting sensitive data**
+- **Services and NodePort for external access**
 
 ---
 
@@ -29,3 +30,4 @@
                     |-------------------|
                     | Persistent Volume |
                     +-------------------+
+
